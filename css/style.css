@@ -234,6 +234,12 @@ first div in the grid  and place it in the grid. */
 
     padding: 30px 0px;
     text-align: right;
+  }
+  
+  nav li{
+    justify-content: end;
+  }
+
     
 
  
