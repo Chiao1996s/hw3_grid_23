@@ -217,10 +217,10 @@ first div in the grid  and place it in the grid. */
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 
 .text-block {
-  display:grid;
-  align-content:center;
-  justify-content:center; 
+
   text-align: center;
+  justify-self: center;
+  align-self: center;
   
 }
 
@@ -231,18 +231,17 @@ first div in the grid  and place it in the grid. */
 
   /* Step 9: Write the selector/rule property to style the nav element */
   nav  {
+
     padding: 30px 0px;
-        
-  }
-  nav li{
-    justify-content:end; 
-  }
+    text-align: right;
+    
 
  
   /* Step 10: Write the selector/rule property to update the .container class */
   .container {
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
+    align-items: center;
     
   }
 
@@ -250,7 +249,6 @@ first div in the grid  and place it in the grid. */
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
   .about, .clients, .method-image, .contact-image {
     grid-column: 3/ span 2;
-    max-height: 250px;
     
   }
 
@@ -263,9 +261,10 @@ first div in the grid  and place it in the grid. */
  /* Step 13:Write the selector/rule property to update the .text-block class */
  .text-block {
   max-height: 250px;
-  padding: 20px 40px;
+
 
   }
+
 
  
 
@@ -274,3 +273,4 @@ first div in the grid  and place it in the grid. */
 
 }
 
+}
